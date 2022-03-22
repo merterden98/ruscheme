@@ -1,0 +1,40 @@
+#V2
+(+ 3 2)
+(letrec ([x (lambda () 10)]) (x))
+(val peepee '(1 2 3))
+(car peepee)
+(cdr peepee)
+null?
+(val peepee '(1 2 3))
+(null? peepee)
+(null? '())
+(cons 1 2)
+(val p (cons 1 2))
+(cons p 1)
+(cons (cons p 1) 2)
+(let ([x 3]) x)
+(&&)
+(|| 3)
+||
+&&
+||
+(|| 3)
+(||)
+(|| 3 2)
+(|| #f 3)
+1
+2
+y
+s
+d
+z
+d
+e
+3
+2
+y
+(let ([x 3]) x)
+x
+d
+e
+fed
